@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = 'Currently supported editors are CKEditor and TinyMCE'
   s.required_ruby_version = '>= 2.1.0'
 
-  s.authors       = ['Alexander Shuhin', 'Roman Smirnov', 'divineforest', 'Marc Lee', 'Jeff Dutil']
+  s.authors       = ['Alexander Shuhin', 'Roman Smirnov', 'divineforest', 'Marc Lee', 'Jeff Dutil', 'Firman']
   s.homepage      = 'https://github.com/spree/spree_editor'
   s.license       = 'BSD-3'
 
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'ckeditor',      '~> 4.0.11'
-  s.add_dependency 'spree_backend', '~> 3.0.0.beta'
+  s.add_dependency 'spree_backend'#, '~> 3.0.0.beta'
   s.add_dependency 'tinymce-rails', '~> 4.0.16'
 
   s.add_development_dependency 'i18n-spec', '>= 0.5.0'
